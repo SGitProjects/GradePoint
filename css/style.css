@@ -1,0 +1,110 @@
+body {
+    background: #0ea57d;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.subjectname {
+    padding-left: 245px;
+     text-align: center;
+}
+
+.subjectname p {
+    display: inline-block;
+    margin-right: 250px;
+    color: #fff;
+}
+
+.names {
+    padding-left: 425px;
+    text-align: center;
+}
+
+.names p {
+    display: inline-block;
+    margin-right: 250px;
+    color: #fff;
+}
+
+input {
+    text-align: center;
+     border: 2px solid #00b393;
+}
+
+
+.names .weight1 input {
+    padding-right: 20px;
+}
+
+#weights1,
+#weights2,
+#weights3,
+#weights4,
+#weights5,
+#weights6,
+#weights7,
+#weights8,
+#weights9,
+#weights10,
+#weights11,
+#weights12,
+#weights13,
+#weights14,
+#weights15  {
+    position: absolute;
+    left: 1220px;
+}
+
+#grade1,
+#grade2,
+#grade3,
+#grade4,
+#grade5,
+#grade6,
+#grade7,
+#grade8,
+#grade9,
+#grade10,
+#grade11,
+#grade12,
+#grade13,
+#grade14,
+#grade15{
+    position: absolute;
+    left: 907px;
+}
+
+#assignments1,
+#assignments2,
+#assignments3,
+#assignments4,
+#assignments5,
+#assignments6,
+#assignments7,
+#assignments8,
+#assignments9,
+#assignments10,
+#assignments11,
+#assignments12,
+#assignments13,
+#assignments14,
+#assignments15 {
+    padding-right: 290px;
+}
+
+
+#gradebutton {
+    position: absolute;
+    left: 908px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    background: #222;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+#total {
+    color: #fff;
+}

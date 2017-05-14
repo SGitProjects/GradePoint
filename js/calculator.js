@@ -52,6 +52,11 @@
 
             var totalweights = weights1 + weights2 + weights3 + weights4 + weights5 + weights6 + weights7 + weights8 + weights9 +weights10 +weights11 +weights12 +weights13 +weights14 +weights15;
 
+            var display=document.getElementById('total');
+            
+
+            display.innerHTML='Your Final Grade Is: ' + totalall / totalweights;
+
             if(totalall / totalweight >= 100){
 			document.getElementById('totalgrade').value = "A";
 		}
@@ -90,8 +95,4 @@
 }
 
 
-            var display=document.getElementById('total');
-            
-
-            display.innerHTML='Your Final Grade Is: ' + totalall / totalweights;
     

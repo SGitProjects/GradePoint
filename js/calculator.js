@@ -52,8 +52,46 @@
 
             var totalweights = weights1 + weights2 + weights3 + weights4 + weights5 + weights6 + weights7 + weights8 + weights9 +weights10 +weights11 +weights12 +weights13 +weights14 +weights15;
 
+            if(totalall / totalweight >= 100){
+			document.getElementById('totalgrade').value = "A";
+		}
+		
+		else if(183 >= totalall / totalweight >= 90){
+			document.getElementById('totalgrade').value = "A-";
+		}
+		
+		else if(177 >= totalPoints && totalPoints >= 87){
+			document.getElementById('totalgrade').value = "B+";
+		}
+		
+		else if(171 >= totalPoints && totalPoints >= 80){
+			document.getElementById('totalgrade').value = "B";
+		}
+		
+		else if(157 >= totalPoints && totalPoints >= 76){
+			document.getElementById('totalgrade').value = "C+";
+		}
+		
+		else if(151 >= totalPoints && totalPoints >= 70){
+			document.getElementById('totalgrade').value = "C";
+		}
+		
+		else if(137 >= totalPoints && totalPoints >= 67){
+			document.getElementById('totalgrade').value = "D+";
+		}
+		
+		else if(131 >= totalPoints && totalPoints >= 60){
+			document.getElementById('totalgrade').value = "D";
+		}
+		
+		else{
+			document.getElementById('totalgrade').value = "F";
+		}
+}
+
 
             var display=document.getElementById('total');
+            
 
             display.innerHTML='Your Final Grade Is: ' + totalall / totalweights;
-        }
+    

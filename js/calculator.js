@@ -32,10 +32,28 @@
             var weights14=parseFloat(document.getElementById('weights14').value); 
             var weights15=parseFloat(document.getElementById('weights15').value); 
 
-            var total=grade1 * weights1 + grade2 * weights2 + grade3 * weights3  + grade4 * weights4 + grade5 * weights5  + grade6 * weights6  + grade7 * weights7 + grade8 * weights8 + grade9 * weights9 + grade10 * weights10 + grade11 * weights11 + grade12 * weights12 + grade13 * weights13 + grade14 * weights14 + grade15 * weights15;
-            var totalweight=weights1+weights2+weights3+weights4+weights5+weights6+weights7+weights8+weights9+weights10+weights11+weights12+weights13+weights14+weights15;
+            var total1 = grade1 * weights1;
+            var total2 = grade2 * weights2;
+            var total3 = grade3 * weights3;
+            var total4 = grade4 * weights4;
+            var total5 = grade5 * weights5;
+            var total6 = grade6 * weights6;
+            var total7 = grade7 * weights7;
+            var total8 = grade8 * weights8;
+            var total9 = grade9 * weights9;
+            var total10 = grade10 * weights10;
+            var total11 = grade11 * weights11;
+            var total12 = grade12 * weights12;
+            var total13 = grade13 * weights13;
+            var total14 = grade14 * weights14;
+            var total15 = grade15 * weights15;
+
+            var totalall = total1 + total2 + total3 + total4 + total5 + total6 + total7 + total8 + total9 + total10 + total11 + total12 + total13 + total14 + total15;
+
+            var totalweights = weights1 + weights2 + weights3 + weights4 + weights5 + weights6 + weights7 + weights8 + weights9 +weights10 +weights11 +weights12 +weights13 +weights14 +weights15;
+
 
             var display=document.getElementById('total');
 
-            display.innerHTML='Your Final Grade Is: ' + total / totalweight ;
+            display.innerHTML='Your Final Grade Is: ' + totalall / totalweights;
         }

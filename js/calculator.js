@@ -37,5 +37,5 @@
 
             var display=document.getElementById('total');
 
-            display.innerHTML='Your Final Grade Is: ' + total * totalweigh / totalweight;
+            display.innerHTML='Your Final Grade Is: ' + total * totalweight / totalweight;
         }

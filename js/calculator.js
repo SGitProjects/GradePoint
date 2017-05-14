@@ -32,10 +32,10 @@
             var weights14=parseFloat(document.getElementById('weights14').value); 
             var weights15=parseFloat(document.getElementById('weights15').value); 
 
-            var total=grade1+grade2+grade3+grade4+grade5+grade6+grade7+grade8+grade9+grade10+grade11+grade12+grade13+grade14+grade15;
+            var total=grade1 * weights1 + grade2 * weights2 + grade3 * weights3  + grade4 * weights4 + grade5 * weights5  + grade6 * weights6  + grade7 * weights7 + grade8 * weights8 + grade9 * weights9 + grade10 * weights10 + grade11 * weights11 + grade12 * weights12 + grade13 * weights13 + grade14 * weights14 + grade15 * weights15;
             var totalweight=weights1+weights2+weights3+weights4+weights5+weights6+weights7+weights8+weights9+weights10+weights11+weights12+weights13+weights14+weights15;
 
             var display=document.getElementById('total');
 
-            display.innerHTML='Your Final Grade Is: ' + total * totalweight / totalweight;
+            display.innerHTML='Your Final Grade Is: ' + total / totalweight ;
         }

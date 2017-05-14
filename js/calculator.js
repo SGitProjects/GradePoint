@@ -56,43 +56,7 @@
             
 
             display.innerHTML='Your Final Grade Is: ' + totalall / totalweights;
-
-            if(totalall / totalweight >= 100){
-			document.getElementById('totalgrade').value = "A";
-		}
-		
-		else if (totalall / totalweight >= 90){
-			document.getElementById('totalgrade').value = "A-";
-		}
-		
-		else if(totalall / totalweight >= 87){
-			document.getElementById('totalgrade').value = "B+";
-		}
-		
-		else if(totalall / totalweight >= 80){
-			document.getElementById('totalgrade').value = "B";
-		}
-		
-		else if(totalall / totalweight >= 76){
-			document.getElementById('totalgrade').value = "C+";
-		}
-		
-		else if(totalall / totalweight >= 70){
-			document.getElementById('totalgrade').value = "C";
-		}
-		
-		else if(totalall / totalweight >= 67){
-			document.getElementById('totalgrade').value = "D+";
-		}
-		
-		else if(totalall / totalweight >= 60){
-			document.getElementById('totalgrade').value = "D";
-		}
-		
-		else{
-			document.getElementById('totalgrade').value = "F";
-		}
-}
+        }
 
 
     
